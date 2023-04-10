@@ -15,6 +15,7 @@ int fIniThFAST = 20;//检测fast角点阈值
 int fMinThFAST = 8;//最低阈值
 
 int main() {
+    //try
     cv::Mat image = cv::imread("C:/Users/DELL/Desktop/OpenCVDemo/2.png",0);
     vector<cv::KeyPoint> Keypoints;
     cv::Mat mDescriptors;
